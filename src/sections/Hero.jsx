@@ -10,6 +10,7 @@ import Particles from "../components/HeroModels/Particles";
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import AnimatedCounter from "../components/AnimatedCounter";
 
 const Hero = () => {
   useGSAP (()=>{
@@ -61,7 +62,8 @@ const Hero = () => {
               <h1>into Real Projects</h1>
               <h1>that Deliver Results</h1>
             </div>
-            <p className="text-white-50 md:text-xl relative z-20">Hi, I am Natan with a passion for creating innovative web app</p>
+            <p className="text-white-50 md:text-xl relative z-20">Hi, I am Natan a fullStack developer, ready to turn ideas into reality</p>
+           
             <Button className = 'md:w-80 md:h-16 w-60 h-12' 
             id = ''
             text= 'See my work'/>
@@ -94,6 +96,8 @@ maxPolarAngle={Math.PI/2}
 </Canvas>
         </figure>
       </div>
+      {/* animated counter */}
+      <AnimatedCounter/>
     </section>
 
 
